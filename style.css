@@ -15,3 +15,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.card
+{
+  background-color: #C4C4C4;
+}
+
+/*Projects Page*/
+.btn .btn-outline-primary
+{
+  outline-color: #FA04FF
+}
+
+/*Not currently working */ 
+#projectListing:hover #projectHover
+{
+  display: block;
+}
