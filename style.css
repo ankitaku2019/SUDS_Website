@@ -1,5 +1,17 @@
+.navbar
+{
+  background-color: #5A63E8;
+}
 .navbar-brand img
 {
   width: 20%;
-  height:10%;  
+  height: 50%;
+}
+
+/*Home Page CSS */
+#homePageInfo
+{
+  background-image: url('images/Moving_Line_Graph.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
