@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="main.js" type="text/javascript"></script>
+    <script src="assets/main.js" type="text/javascript"></script>
     <title>SUDS Website</title>
     <meta charset="UTF-8">
   </head>
@@ -27,10 +27,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#"> Resources <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"> RESOURCES <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.html"> Projects </a>
+        <a class="nav-link" href="projects.html"> PROJECTS </a>
     </ul>
       <button class="btn btn-outline-success my-2 my-md-0" type="submit" id="logInButton">Log In</button>
   </div>
@@ -39,7 +39,7 @@
     <!-- Filtering will allow one to see a limited option of projects -->
     <!-- Will be helpful as the number of projects expands -->
     <div id = "filtering">
-      <!-- Default switch from Bootstrap -->
+      <!-- Default switch checked from Bootstrap -->
       <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" id="customSwitches" checked>
         <label class="custom-control-label" for="customSwitches">Active Projects</label>
@@ -54,10 +54,11 @@
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <div class="card project-listing">
-      <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" id="projectListing" class="card-img-top" alt="K-Means Clustering of the Data">
-      <p class="card-text project-hover">Sample text</p>
-      <a href="project_description.html" class='card-link'> View Details </a>
+      <div class="card project-listing" id="firstCard">
+      <!-- the images are organized by project to make it easier to access -->
+        <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" class="card-img-top project-listing-img" alt="K-Means Clustering of the Data">
+        <p class="card-title project-title">Attrition and Retention Measurements</p>
+        <a href="project_description.html" class='card-link'> View Details </a>
       </div>
     </div>
     <div class="col-sm">
