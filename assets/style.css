@@ -1,0 +1,96 @@
+/* Navbar style */
+.navbar
+{
+  background-color: #5A63E8;
+}
+
+.navbar-brand img
+{
+  width: 20%;
+  height: 50%;
+}
+
+.nav-item
+{
+  font-size: 125%;
+}
+
+.navbar-toggler
+{
+  align-items: right; 
+}
+
+#submitButton
+{
+    color: white;
+    border-color: #FA04FF;
+    width: 25%;
+    /* Rounded rectangles*/
+    border-radius: 25px;
+}
+
+#submitButton:hover
+{
+  background-color: #FA04FF
+}
+
+/*Home Page CSS */
+/* Originally had the bkgnd img under the card, but moved it to the
+whole body, so it covers the whole page regardless of the card
+size */
+#homePage
+{
+  background-image: url('images/Moving_Line_Graph.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Centers the card and custom adjustments to
+make it look more centered */
+/* Opacity is for the transparent background */
+#homePageCard
+{
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #C4C4C4;
+  opacity: 75%;
+  width: 35%;
+  border-radius: 15px;
+}
+
+#homePageTitle
+{
+  text-align:center;
+}
+
+#homePageText
+{
+  color: black;
+  text-align: center;
+}
+
+#learnMoreBtn
+{
+   /* background-color: #FF6E04;
+   border-color: #FF6E04; */
+   background-color: #fc8c03;
+   border-color: #fc8c03;
+}
+
+#learnMoreBtn:hover
+{
+  background-color: #FF6E04;
+}
+
+/*Projects Page*/
+.btn .btn-outline-primary
+{
+  outline-color: #FA04FF
+}
+
+/*Not currently working */
+#projectListing:hover #projectHover
+{
+  display: block;
+}

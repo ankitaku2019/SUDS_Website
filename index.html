@@ -3,7 +3,7 @@
   <head>
     <!--bootstrap plugin-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type='text/css' href= 'style.css'>
+    <link rel="stylesheet" type='text/css' href= 'assets/style.css'>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- javascript -->
@@ -14,40 +14,46 @@
     <title>SUDS Website</title>
     <meta charset="UTF-8">
   </head>
-  <!-- Most of the code is modified from the Boostrap documentation for navbars -->
+  <!-- Navigation with the toggle button for mobile screens -->
   <nav class = "navbar navbar-expand-md navbar-light">
+    <!-- navbar brand is for logo images -->
     <a class = "navbar-brand" href="#">
-      <img src = 'images/SUDS_Logo.jpg' alt="Cloud with heart in middle and Students Using Data for Social Good">
+      <img src = 'assets/images/SUDS_Logo.jpg' alt="Cloud with heart in middle and Students Using Data for Social Good">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+  <!-- Includes the links for resources and projects and log in button -->
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"> Resources <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> RESOURCES </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.html"> Projects </a>
+        <a class="nav-link" href="projects.html"> PROJECTS</a>
+      </li>
     </ul>
-      <button class="btn btn-outline-success my-2 my-md-0" type="submit">Log In</button>
+    <button class="btn btn-outline-success my-2 my-md-0" type="submit" id="submitButton">Log In</button>
   </div>
   </nav>
-  <body>
+  <body id="homePage">
     <div id = "homePageInfo">
-    <div class="card" style="width: 18rem;">
+    <div class="card" id="homePageCard">
   <div class="card-body">
-    <h5 class="card-title">Students Using Data for Social Good</h5>
-    <p class="card-text">Student Using Data for Social Good
-Students Using Data for Social Good (SUDS)
-is a student group that brings together
-the vast array of different data sources
-and different disciplines to do projects.
-We partners with non-profits andgovernment
-organizations around the world
-to do pro-bono projects and increase our skills in data.   </p>
-    <a href="#" class="btn btn-primary">Learn more about us</a>
+    <h5 class="card-title" id="homePageTitle">Students Using Data for Social Good</h5>
+    <p class="card-text" id="homePageText">
+      Students Using Data for Social Good (SUDS) is a student group that brings together
+      the vast (and growing) array of disciplines that contribute to the conversation of how
+      cities are adapting new methods of “big data” collection and analysis to improve their
+      service delivery, from providing water and police protection to repairing infrastructure.
+      Additionally, the democratization of data and cities’ new “open data” policies are
+      revolutionizing the way citizens interact with their cities, including the emergence of a
+      burgeoning “civic hacking” scene where average citizens use this newly-available open data
+      to create tools, visualizations, and awareness to help improve the lives of other citizens.
+      <br/>
+      <a href="#" class="btn btn-primary" id="learnMoreBtn">Learn more about us</a>
+    </p>
   </div>
 </div>
     </div>
