@@ -32,58 +32,69 @@
       <li class="nav-item">
         <a class="nav-link" href="projects.html"> Projects </a>
     </ul>
-      <button class="btn btn-outline-success my-2 my-md-0" type="submit">Log In</button>
+      <button class="btn btn-outline-success my-2 my-md-0" type="submit" id="logInButton">Log In</button>
   </div>
   </nav>
   <body>
+    <!-- Filtering will allow one to see a limited option of projects -->
+    <!-- Will be helpful as the number of projects expands -->
     <div id = "filtering">
+      <!-- Default switch from Bootstrap -->
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="customSwitches" checked>
+        <label class="custom-control-label" for="customSwitches">Active Projects</label>
+      </div>
       <button type="button" class="btn btn-outline-primary">Data Visualizations</button>
       <button type="button" class="btn btn-outline-primary">Building Prototypes</button>
       <button type="button" class="btn btn-outline-primary">Data Analytics</button>
       <button type="button" class="btn btn-outline-primary">Machine Learning</button>
     </div>
-    <!-- project in grid description -->
-    <div class="container">
+<!-- project in grid description -->
+<!-- each box is of equal size so it works better responsively -->
+<div class="grid-container">
   <div class="row">
     <div class="col-sm">
       <div class="card" style="width: 10rem;">
-      <img src="assets/images/Fire_Risk.PNG" id="projectListing" class="card-img-top" alt="Fire Risk Visualization">
+      <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" id="projectListing" class="card-img-top" alt="K-Means Clustering of the Data">
       <p class="card-text" id="projectHover">Sample text</p>
       <a href="project_description.html" class='card-link'> View Details </a>
       </div>
     </div>
     <div class="col-sm">
       <div class="card" style="width: 10rem;">
-      <img src="images/Fire_Risk.png" id="projectListing" class="card-img-top" alt="Metro 21 Logo">
+      <img src="assets/images/EGPAF/cover_img.PNG" id="projectListing" class="card-img-top" alt="Metro 21 Logo">
       <p class="card-text" id="projectHover">Sample text</p>
       </div>
     </div>
     <div class="col-sm">
       <div class="card" id="projectListing" style="width: 10rem;">
-      <img src="images/Fire_Risk.png" class="card-img-top" alt="Metro 21 Logo">
+      <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" class="card-img-top" alt="Metro 21 Logo">
       <p class="card-text" id="projectHover">Sample text</p>
     </div>
     </div>
-    <div class="row">
+  </div>
+
+  <div class="row">
       <div class="col-sm">
         <div class="card" id="projectListing" style="width: 10rem;">
-        <img src="images/Fire_Risk.png" class="card-img-top" alt="Metro 21 Logo">
+        <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" class="card-img-top" alt="Metro 21 Logo">
         <p class="card-text" id="projectHover">Sample text</p>
         </div>
       </div>
       <div class="col-sm">
         <div class="card" id="projectListing" style="width: 10rem;">
-        <img src="images/Fire_Risk.png" class="card-img-top" alt="Metro 21 Logo">
+        <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" class="card-img-top" alt="Metro 21 Logo">
         <p class="card-text" id="projectHover">Sample text</p>
         </div>
       </div>
       <div class="col-sm">
         <div class="card" id="projectListing" style="width: 10rem;">
-        <img src="images/Fire_Risk.png" class="card-img-top" alt="Metro 21 Logo">
+        <img src="assets/images/FII_Attrition_Retention/cover_img.PNG" class="card-img-top" alt="Metro 21 Logo">
         <p class="card-text" id="projectHover">Sample text</p>
-      </div>
+        </div>
       </div>
   </div>
 </div>
+<!-- The grid container ended above -->
   </body>
 </html>

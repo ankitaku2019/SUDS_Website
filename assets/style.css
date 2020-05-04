@@ -17,10 +17,10 @@
 
 .navbar-toggler
 {
-  align-items: right; 
+  align-items: right;
 }
 
-#submitButton
+#logInButton
 {
     color: white;
     border-color: #FA04FF;
@@ -29,7 +29,7 @@
     border-radius: 25px;
 }
 
-#submitButton:hover
+#logInButton:hover
 {
   background-color: #FA04FF
 }
@@ -84,9 +84,22 @@ make it look more centered */
 }
 
 /*Projects Page*/
+#filtering
+{
+  align-items: center;
+  padding-top: 1%;
+}
+
 .btn .btn-outline-primary
 {
   outline-color: #FA04FF
+}
+
+/* Create a grid on the projects pages */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10%;
 }
 
 /*Not currently working */
