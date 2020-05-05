@@ -176,4 +176,5 @@ make it look more centered */
 #projectDescription img
 {
   float: left;
+  width: 25%; 
 }
