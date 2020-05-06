@@ -168,13 +168,53 @@ make it look more centered */
 }
 
 /*Project Description Page */
-#projectDescription
+/* #projectPage
+{
+  margin: auto;
+  padding: 5%;
+} */
+/* .slideinRight
+{
+  animation-duration: 10s;
+  animation-delay: 2s;
+} */
+
+.fadeIn
+{
+  animation-duration: 2s; 
+}
+
+#projectPage h1
 {
   text-align: center;
 }
 
+/* Keeps a consistent size of images throughout the page */
+.projectImg
+{
+  width: 50%;
+}
+
+
+#projectDescription, #clientInformation, #challenges, #teamMembers
+{
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 125%;
+}
+
+/* Styling the images so that they alternate sides of the page */
 #projectDescription img
 {
   float: left;
-  width: 25%; 
+}
+
+#clientInformation img
+{
+  float: right;
 }

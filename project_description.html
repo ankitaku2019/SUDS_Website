@@ -3,6 +3,7 @@
   <head>
     <!--bootstrap plugin-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" type='text/css' href= 'assets/style.css'>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -11,6 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="main.js" type="text/javascript"></script>
+    <!-- This js has the tools neccessary to do a scroll to reveal animation -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <title>SUDS Website</title>
     <meta charset="UTF-8">
   </head>
@@ -35,10 +41,11 @@
   </div>
   </nav>
 
-  <body>
-    <div id="projectDescription">
-      <h3> Family Independence Initiative: Attrition and Retention </h3>
-      <img src="assets/images/FII_Attrition_Retention/project_img.PNG" alt=""></img>
+  <body id="projectPage">
+    <h1> Family Independence Initiative: Attrition and Retention </h1>
+    <div id="projectDescription" class="wow fadeIn">
+      <h4> Project Overview </h4>
+      <img src="assets/images/FII_Attrition_Retention/project_img.PNG" alt="" class="projectImg"></img>
       <p> This project aims to understand the effectiveness of
         the non-profit organization, Family Independence Initiative (FII), around how long households engage
         with FII for and what characteristics or patterns are linked to achieving household goals and improving outcomes.
@@ -46,13 +53,37 @@
         appropriate measures to the client. </p>
     </div>
 
-  <div id="clientInformation">
+  <div id="clientInformation" class="wow fadeIn">
+    <h4> Client Information </h4>
+    <figure>
+      <img src="assets/images/FII_Attrition_Retention/client_logo.PNG" alt="FII logo with curved letter blocks" class='figure-img img-fluid projectImg'></img>
+    </figure>
+    <p> Family Independence Initiative (FII) trusts and invests directly in low-income families
+      across the nation so they can work individually and collectively to achieve prosperity.
+        Families that partner with FII share data about their finances, goals, community engagement, and other measures of well being.
+        FII then uses that data to learn directly from families what works for them.
+    </p>
   </div>
 
-  <div id="challengesList">
+  <div id="challenges" class="wow fadeIn animated">
+    <h4> Challenges Faced & Lessons Learned
+    <p> There were seven datasets with varying degress of completeness
+    and different answers being sought from each of the datasets. Several
+    datasets were difficult to create data visualizations from since they
+    had inconsistent labeling and missed large gaps of information. Thus, it
+    was especially important to ensure that the data visualizations we
+    presented were honest, and clearly communicated how the gaps of data
+    might affect or bias the results in either a positive or negative way.
+  </p>
   </div>
 
-  <div id="teamMembers">
+  <div id="teamMembers" class="wow fadeIn animated">
+    <h4> Team Members </h4> <br/>
+      Woojin Park (Project Manager) </br>
+      Aaron Dunmore (Team Member) </br>
+      Sage Betko (Team Member) </br>
+      John Dellape (Team Member)</br>
+      Eva Gerstle (Team Member) </br>
   </div>
   </body>
 </html>
