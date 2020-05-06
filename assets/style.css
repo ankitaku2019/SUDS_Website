@@ -167,21 +167,9 @@ make it look more centered */
   background: #fc8c03;
 }
 
-/*Project Description Page */
-/* #projectPage
-{
-  margin: auto;
-  padding: 5%;
-} */
-/* .slideinRight
-{
-  animation-duration: 10s;
-  animation-delay: 2s;
-} */
-
 .fadeIn
 {
-  animation-duration: 2s; 
+  animation-duration: 2s;
 }
 
 #projectPage h1
@@ -217,4 +205,11 @@ make it look more centered */
 #clientInformation img
 {
   float: right;
+}
+
+/* Specific styling for the EGPAF Project Page
+because the image was very large */
+#EGPAF-project
+{
+  width: 35%; 
 }

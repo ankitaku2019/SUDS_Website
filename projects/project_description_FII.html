@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--bootstrap plugin-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type='text/css' href= '../assets/style.css'>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <title>SUDS Website</title>
+    <meta charset="UTF-8">
+  </head>
+  <!-- Most of the code is modified from the Boostrap documentation for navbars -->
+  <nav class = "navbar navbar-expand-md navbar-light">
+    <a class = "navbar-brand" href="index.html">
+      <img src = '../assets/images/SUDS_Logo.jpg' alt="Cloud with heart in middle and Students Using Data for Social Good">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html"> PROJECTS </a>
+    </ul>
+      <button class="btn btn-outline-success my-2 my-md-0" type="submit" id="logInButton">Log In</button>
+  </div>
+  </nav>
+
+  <body id="projectPage">
+    <h1> Family Independence Initiative: Attrition and Retention </h1>
+    <div id="projectDescription" class="fadeIn">
+      <h4> Project Overview </h4>
+      <img src="../assets/images/FII_Attrition_Retention/project_img.PNG" alt="" class="projectImg"></img>
+      <p> This project aims to understand the effectiveness of
+        the non-profit organization, Family Independence Initiative (FII), around how long households engage
+        with FII for and what characteristics or patterns are linked to achieving household goals and improving outcomes.
+        Students used K-means clustering to effectively visualize the statistical data they received and provide
+        appropriate measures to the client. </p>
+    </div>
+
+  <div id="clientInformation" class="fadeIn">
+    <h4> Client Information </h4>
+    <figure>
+      <img src="../assets/images/FII_Attrition_Retention/client_logo.PNG" alt="FII logo with curved letter blocks" class='figure-img img-fluid projectImg'></img>
+    </figure>
+    <p> Family Independence Initiative (FII) trusts and invests directly in low-income families
+      across the nation so they can work individually and collectively to achieve prosperity.
+        Families that partner with FII share data about their finances, goals, community engagement, and other measures of well being.
+        FII then uses that data to learn directly from families what works for them.
+    </p>
+  </div>
+
+  <div id="challenges" class="fadeIn">
+    <h4> Challenges Faced & Lessons Learned </h4> 
+    <p> There were seven datasets with varying degress of completeness
+    and different answers being sought from each of the datasets. Several
+    datasets were difficult to create data visualizations from since they
+    had inconsistent labeling and missed large gaps of information. Thus, it
+    was especially important to ensure that the data visualizations we
+    presented were honest, and clearly communicated how the gaps of data
+    might affect or bias the results in either a positive or negative way.
+  </p>
+  </div>
+
+  <div id="teamMembers" class="fadeIn">
+    <h4> Team Members </h4>
+      Woojin Park (Project Manager) </br>
+      Aaron Dunmore (Team Member) </br>
+      Sage Betko (Team Member) </br>
+      John Dellape (Team Member)</br>
+      Eva Gerstle (Team Member) </br>
+  </div>
+  </body>
+</html>

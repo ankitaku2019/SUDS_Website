@@ -4,7 +4,7 @@
     <!--bootstrap plugin-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" type='text/css' href= 'assets/style.css'>
+    <link rel="stylesheet" type='text/css' href= '../assets/style.css'>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- javascript -->
@@ -18,7 +18,7 @@
   <!-- Most of the code is modified from the Boostrap documentation for navbars -->
   <nav class = "navbar navbar-expand-md navbar-light">
     <a class = "navbar-brand" href="index.html">
-      <img src = 'assets/images/SUDS_Logo.jpg' alt="Cloud with heart in middle and Students Using Data for Social Good">
+      <img src = '../assets/images/SUDS_Logo.jpg' alt="Cloud with heart in middle and Students Using Data for Social Good">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -27,9 +27,6 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#"> RESOURCES <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="projects.html"> PROJECTS </a>
     </ul>
       <button class="btn btn-outline-success my-2 my-md-0" type="submit" id="logInButton">Log In</button>
@@ -37,48 +34,43 @@
   </nav>
 
   <body id="projectPage">
-    <h1> Family Independence Initiative: Attrition and Retention </h1>
+    <h1> Elizabeth Glaser Association for Pediatric AIDS: Country Indicators of Performance </h1>
     <div id="projectDescription" class="fadeIn">
       <h4> Project Overview </h4>
-      <img src="assets/images/FII_Attrition_Retention/project_img.PNG" alt="" class="projectImg"></img>
+      <img src="../assets/images/EGPAF/project_img.PNG" alt="" class="projectImg" id='EGPAF-project'></img>
       <p> This project aims to understand the effectiveness of
-        the non-profit organization, Family Independence Initiative (FII), around how long households engage
-        with FII for and what characteristics or patterns are linked to achieving household goals and improving outcomes.
-        Students used K-means clustering to effectively visualize the statistical data they received and provide
-        appropriate measures to the client. </p>
-    </div>
+        the non-profit organization, Elizabeth Glaser Association for Pediatric AIDS (EGPAF), around
+        their performance at being able to accurately reduce the number of cases of pediatric AIDS
+        across the globe. Students used Power BI to create a dashboard for internal organizational
+        use to more easily understand the statistical data they currently have. </p>
+    </div> <br/> <br/> 
 
   <div id="clientInformation" class="fadeIn">
     <h4> Client Information </h4>
-    <figure>
-      <img src="assets/images/FII_Attrition_Retention/client_logo.PNG" alt="FII logo with curved letter blocks" class='figure-img img-fluid projectImg'></img>
-    </figure>
-    <p> Family Independence Initiative (FII) trusts and invests directly in low-income families
-      across the nation so they can work individually and collectively to achieve prosperity.
-        Families that partner with FII share data about their finances, goals, community engagement, and other measures of well being.
-        FII then uses that data to learn directly from families what works for them.
-    </p>
+    <img src="../assets/images/EGPAF/client_logo.PNG" alt="EGPAF logo that looks like a postage stamp" class='projectImg'></img>
+    <p> EGPAF works with policymakers in the U.S. and around the world to drive the support,
+      leadership, and resources needed to end HIV and AIDS in children, youth, and families.
+      Their global work has reduced the number of infections down to 50% </p>
   </div>
 
   <div id="challenges" class="fadeIn">
-    <h4> Challenges Faced & Lessons Learned
-    <p> There were seven datasets with varying degress of completeness
-    and different answers being sought from each of the datasets. Several
-    datasets were difficult to create data visualizations from since they
-    had inconsistent labeling and missed large gaps of information. Thus, it
-    was especially important to ensure that the data visualizations we
-    presented were honest, and clearly communicated how the gaps of data
-    might affect or bias the results in either a positive or negative way.
+    <h4> Challenges Faced & Lessons Learned </h4>
+    <p> Although the dataset was quite clear in this project, a welcome change
+      from the common partial or confusing datasets that teams often receive, many other
+      challenges faced this project. None of the team members knew how to operate
+      Power BI at the outset of the project. Yet, through workshops and online resources,
+      several very well done visualizations were created at the end of the project that
+      were commended by the client. Continous communication with the client about
+      the client's expectations led to a successful product.
   </p>
   </div>
 
   <div id="teamMembers" class="fadeIn">
-    <h4> Team Members </h4> 
-      Woojin Park (Project Manager) </br>
-      Aaron Dunmore (Team Member) </br>
-      Sage Betko (Team Member) </br>
-      John Dellape (Team Member)</br>
-      Eva Gerstle (Team Member) </br>
+    <h4> Team Members </h4>
+      Kaiqing Yang (Project Manager) </br>
+      Prem Ganesan (Team Member) </br>
+      Jinah Moon (Team Member) </br>
+      Yue Wu (Team Member)</br>
   </div>
   </body>
 </html>
